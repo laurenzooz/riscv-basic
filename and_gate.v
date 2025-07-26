@@ -6,6 +6,6 @@ module and_gate (
     output wire out
 );
     // The behavior of the AND gate
-    assign out = a & b;
+    or (out, a, b);
 endmodule
 
